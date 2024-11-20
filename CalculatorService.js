@@ -2,12 +2,12 @@ var http = require ('http');
 var request = require('sync-request');
 
 const PORT = 80;
-const service_ip = '192.168.37.27';
+const service_ip = '192.168.37.38';
 
-const SUM_SERVICE_IP_PORT = 'http://'+service_ip+':31001';
-const SUB_SERVICE_IP_PORT = 'http://'+service_ip+':31002';
-const MUL_SERVICE_IP_PORT = 'http://'+service_ip+':31003';
-const DIV_SERVICE_IP_PORT = 'http://'+service_ip+':31004';
+const SUM_SERVICE_IP_PORT = 'http://'+service_ip+':50001';
+const SUB_SERVICE_IP_PORT = 'http://'+service_ip+':50002';
+const MUL_SERVICE_IP_PORT = 'http://'+service_ip+':50003';
+const DIV_SERVICE_IP_PORT = 'http://'+service_ip+':50004';
 
 
 
